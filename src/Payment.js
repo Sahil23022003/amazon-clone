@@ -8,8 +8,8 @@ import { CardElement,useElements, useStripe } from '@stripe/react-stripe-js';
 function Payment() {
     const [{basket,user},dispatch] = useStateValue();
     
-    //  const stripe = useStripe();
-    //  const elements = useElements();
+      const stripe = useStripe();
+      const elements = useElements();
 
   return (
     <div className='payment'>
@@ -53,7 +53,7 @@ function Payment() {
                 </div>
                 <div className='payment__details'>
                     <form>
-                        {/* <CardElement/>  */}
+                        <CardElement/> 
                     </form>
                 </div>
             </div>

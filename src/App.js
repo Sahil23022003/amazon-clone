@@ -71,9 +71,9 @@ function App() {
       </Routes>
 
  
-       {/* <Elements stripe={promise}>
+       <Elements stripe={promise}>
           <Payment/>
-        </Elements>   */}
+        </Elements>  
            
 
     </div>
